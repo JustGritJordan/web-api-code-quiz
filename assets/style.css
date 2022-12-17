@@ -1,0 +1,7 @@
+.high-score-container {
+  display: flex;
+}
+
+.timer {
+  float: right;
+}
