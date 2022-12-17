@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./web-api-code-quiz/assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <!-- GIVEN I am taking a code quiz
 WHEN I click the start button
@@ -35,13 +35,20 @@ THEN I can save my initials and my score -->
   <!-- When I  -->
 
   <body>
-    <span class="high-score-container">
-      <div class="high-score">
-        <h3>View High Score</h3>
-      </div>
-      <div class="timer">
-        <h3>Time:</h3>
-      </div>
-    </span>
+    <div class="high-score-timer-container">
+      <h4>View Highscores</h4>
+      <h4>Timer: 0</h4>
+    </div>
+    <br />
+    <div class="quiz-container">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Click start then answer the following questions within the time given to
+        achienve your highscore. Answering correctly will go the next questions.
+        Answer incorrectly will decrease you alotted time. Enter your intials at
+        he end of the quiz to save your score.
+      </p>
+      <button type="button">Start Here</button>
+    </div>
   </body>
 </html>

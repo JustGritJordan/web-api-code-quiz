@@ -1,7 +1,9 @@
-.high-score-container {
+.high-score-timer-container {
   display: flex;
+  justify-content: space-between;
 }
-
-.timer {
-  float: right;
+.quiz-container {
+  display: block;
+  margin: 50px 100px;
+  text-align: center;
 }
