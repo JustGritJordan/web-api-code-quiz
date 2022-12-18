@@ -1,4 +1,5 @@
 // Variables
+var timeEl = document.querySelector("#timer");
 var starButton = document.querySelector;
 ("#button");
 var h1Element = document.getElementById("h1ElementId");
@@ -18,11 +19,11 @@ var fifthQuestion = "What is the name of the language that interacts with web pa
 //This will also start the timer
 //Start the Game
 function startGame() {
-  startButton.textContent = h1Questions;
-}
+     var gameTimer= setInterval (function() {
+} ,1000)
 //Change the h1 by the click of the button
 // Attach event listener to increment button element
-firstQuestion.addEventListener("click", function () {} {
+startButton.addEventListener("click", startGame);
+
     
-startGame();
 });
