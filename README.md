@@ -14,7 +14,7 @@ Liscense.MIT
 
 [github-website]https://github.com/JustGritJordan/web-api-code-quiz
 
-[deployed-site-link]
+[deployed-site-link]https://justgritjordan.github.io/web-api-code-quiz/
 
 ## Screenshots
 
